@@ -4,6 +4,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JustForTest", "JustForTest\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventsCore", "EventsCore\EventsCore.csproj", "{5AA9746C-300B-4C12-B740-A95032ED43B4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DBConfigurator", "DBConfigurator\DBConfigurator.csproj", "{28F3D914-8BC7-4C8F-8938-850D36871249}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DBConnectionCore", "DBConnectionCore\DBConnectionCore.csproj", "{798882BA-FA99-4BDC-BB5F-FD6EBEDE0BA7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +22,13 @@ Global
 		{5AA9746C-300B-4C12-B740-A95032ED43B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5AA9746C-300B-4C12-B740-A95032ED43B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5AA9746C-300B-4C12-B740-A95032ED43B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28F3D914-8BC7-4C8F-8938-850D36871249}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28F3D914-8BC7-4C8F-8938-850D36871249}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28F3D914-8BC7-4C8F-8938-850D36871249}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28F3D914-8BC7-4C8F-8938-850D36871249}.Release|Any CPU.Build.0 = Release|Any CPU
+		{798882BA-FA99-4BDC-BB5F-FD6EBEDE0BA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{798882BA-FA99-4BDC-BB5F-FD6EBEDE0BA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{798882BA-FA99-4BDC-BB5F-FD6EBEDE0BA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{798882BA-FA99-4BDC-BB5F-FD6EBEDE0BA7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
