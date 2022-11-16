@@ -1,5 +1,10 @@
 ﻿using System;
-using EventsCore;
+using Common;
+using DBConnectionCore;
 
-var newValue = new Class1();
-Console.WriteLine(newValue.ToString());
+
+var msCon = new MsSqlConnectionBase();
+var pgCon = new PostgresConnectionBase();
+
+Console.WriteLine(msCon.GetConnectionState());
+Console.WriteLine(pgCon.GetConnectionState());

@@ -8,6 +8,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DBConfigurator", "DBConfigu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DBConnectionCore", "DBConnectionCore\DBConnectionCore.csproj", "{798882BA-FA99-4BDC-BB5F-FD6EBEDE0BA7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "Common\Common.csproj", "{560EE226-7352-4ACA-8E67-02FA83AF18D6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +32,9 @@ Global
 		{798882BA-FA99-4BDC-BB5F-FD6EBEDE0BA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{798882BA-FA99-4BDC-BB5F-FD6EBEDE0BA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{798882BA-FA99-4BDC-BB5F-FD6EBEDE0BA7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{560EE226-7352-4ACA-8E67-02FA83AF18D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{560EE226-7352-4ACA-8E67-02FA83AF18D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{560EE226-7352-4ACA-8E67-02FA83AF18D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{560EE226-7352-4ACA-8E67-02FA83AF18D6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
